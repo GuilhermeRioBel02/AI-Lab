@@ -2,7 +2,7 @@ from common.layout_display import LayoutDisplayMixin
 
 class GeneticAlgorithm(LayoutDisplayMixin):
     def __init__(self, TAM_POP, recortes_disponiveis, sheet_width, sheet_height, numero_geracoes=100):
-        print("Algoritmo Genético para Otimização do Corte de Chapa. Executado por Marco.")
+        print("Algoritmo Genético para Otimização do Corte de Chapa. Executado por Guilherme.")
         self.TAM_POP = TAM_POP
         self.initial_layout = recortes_disponiveis  # Available cut parts
         self.sheet_width = sheet_width
