@@ -3,7 +3,7 @@ import random
 
 class GeneticAlgorithm(LayoutDisplayMixin):
     def __init__(self, TAM_POP, recortes_disponiveis, sheet_width, sheet_height, numero_geracoes=100):
-        print("Algoritmo Genético para Otimização do Corte de Chapa. Executado por Guilherme.")
+        print("Algoritmo Genético para Otimização do Corte de Chapa. Executado por Guilherme Pereira.")
         self.TAM_POP = TAM_POP
         self.initial_layout = [
             {**recorte, 'rotacao': recorte.get('rotacao', 0)} for recorte in recortes_disponiveis
@@ -17,7 +17,7 @@ class GeneticAlgorithm(LayoutDisplayMixin):
         self.numero_geracoes = numero_geracoes
         self.initialize_population()
         self.melhor_aptidoes = []
-        self.optimized_layout = None  # Layout otimizado será definido após a execução do algoritmo
+        self.optimized_layout = None  # Layout otimizado será definido depois da execução do algoritmo
 
     def initialize_population(self):
         """Inicializa a população de indivíduos aleatoriamente, incluindo rotação."""
