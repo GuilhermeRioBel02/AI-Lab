@@ -24,4 +24,5 @@ melhor_solucao = ga.optimize_and_display()
 # Exibir a melhor disposição encontrada
 print("\nMelhor solução encontrada:")
 for i, recorte in enumerate(melhor_solucao):
-    print(f"Recorte {i+1}: x={recorte['x']}, y={recorte['y']}, Rotação={recorte['rotacao']}°")
+    print(f"Recorte {i+1}: x={recorte['x']}, y={recorte['y']}, Rotação={recorte.get('rotacao', 'N/A')}°")
+
