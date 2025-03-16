@@ -85,5 +85,5 @@ class GeneticAlgorithm(LayoutDisplayMixin):
         
         self.optimized_layout = self.run()
         
-        self.display_layout(self.optimized_layout, title="Layout Otimizado - Algortimo Genético")
+        self.display_layout(self.optimized_layout, title="Layout Otimizado - Algoritmo Genético")
         return self.optimized_layout
